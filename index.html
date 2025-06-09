@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Documentation Nintendo</title>
+        <title>Site de Terranaus</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <style>
             :root {
@@ -270,6 +270,21 @@
                 margin-bottom: 10px;
             }
 
+            .card-link {
+                display: block;
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .card-link:hover {
+                text-decoration: none;
+            }
+
+            .module-card {
+                position: relative;
+                cursor: pointer;
+            }
+
             .code-block {
                 background-color: var(--code-bg);
                 border-radius: 4px;
@@ -445,21 +460,27 @@
             <div class="content-section">
                 <h2>Quelques-uns de mes projets</h2>
                 
-                <div class="module-grid" herf="">
+                <div class="module-grid">
                     <div class="module-card">
+                        <a href="" class="card-link">
                         <h3><i class="fas fa-cube"></i> Luma3DS mais en français</h3>
                         <p>C'est une traduction française de Luma3DS, un firmware custom pour Nintendo 3DS.</p>
+                        </a>
                     </div>
                     
                     <div class="module-card">
-                        <h3><i class="fas fa-gamepad"></i> Documentation Nintendo</h3>
-                        <p>Une documentation qui vise à résumer tout un tas de choses sur Nintendo dans l'ensemble.</p>
-                        <p>La documentation tourne princpalement autour du hacking des consoles Nintendo.</p>
+                        <a href="https://terranaus.github.io/documentation_nintendo/" class="card-link">
+                            <h3><i class="fas fa-gamepad"></i> Documentation Nintendo</h3>
+                            <p>Une documentation qui vise à résumer tout un tas de choses sur Nintendo dans l'ensemble.</p>
+                            <p>La documentation tourne princpalement autour du hacking des consoles Nintendo.</p>
+                        </a>
                     </div>
                     
                     <div class="module-card">
+                        <a href="" class="card-link">
                         <h3><i class="fas fa-bolt"></i> Mnémograf</h3>
                         <p>Un simple bloc-notes en python pour le moment.</p>
+                        </a>
                     </div>
                 </div>
             </div>
